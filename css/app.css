@@ -50,16 +50,24 @@ img{
     padding: 10px;
 }
 
-.hero_section{
-    background-color: rgba(180,208,231,255);
+.section{
+    background-color: white;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.about{
+    width: 700px;
+}
+
+.hero_section{
+    background-color: rgba(180,208,231,255);
+}
+
 .hero_about{
     width: 900px;
-    margin: 50px;
 }
 
 .hero_titolone{
@@ -79,4 +87,13 @@ img{
     position: relative;
     left: 250px;
     bottom: 330px;
+}
+
+.container_piani{
+    width: 100%;
+    display: flex;
+}
+
+.piani_fatturazione{
+    width: calc(100% / 3);
 }
