@@ -92,8 +92,45 @@ img{
 .container_piani{
     width: 100%;
     display: flex;
+    gap: 5px;
 }
 
 .piani_fatturazione{
     width: calc(100% / 3);
+    border: 1px solid black;
+}
+
+.piani_head{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.piani_body{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.piani_body > ol > li{
+    margin: 15px 0;
+}
+
+.piani_body > ol > li:nth-child(2){
+    font-weight: 900;
+    font-size: 14px;
+    
+}
+
+.piani_body > ol > li:nth-child(3) {
+    font-weight: 200;
+    font-size: 14px;
+    color: grey;
+    font-style: oblique;
+}
+
+p > a {
+    text-decoration: underline;
+    color: blue;
 }
